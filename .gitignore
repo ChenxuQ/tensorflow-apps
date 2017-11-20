@@ -1,0 +1,25 @@
+### OSX ###
+.DS_Store
+.idea
+
+### Virtualenv ###
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+.env
+db.sqlite3
