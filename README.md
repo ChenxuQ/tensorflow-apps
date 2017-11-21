@@ -1,7 +1,9 @@
 ## 环境准备
-Linux
+Linux CentOS
 ```sh
-  virtualenv --system-site-packages -p python3.4 tensorflow-apps
+  yum install -y python34
+  pip install virtualenv
+  virtualenv --system-site-packages -p python3 tensorflow-apps
   pip install Django==1.11.7
   pip install --upgrade tensorflow
 ```
