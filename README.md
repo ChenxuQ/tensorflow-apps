@@ -1,13 +1,13 @@
 ## 环境准备
 Linux
 ```sh
-  virtualenv --system-site-packages -p python3.4 tensorflow_apps
+  virtualenv --system-site-packages -p python3.4 tensorflow-apps
   pip install Django==1.11.7
   pip install --upgrade tensorflow
 ```
-Or mac
+Or Mac
 ```sh
-  pyvenv tensorflow_apps
+  pyvenv tensorflow-apps
   pip install Django==1.11.7
   pip install --upgrade tensorflow
 ```
