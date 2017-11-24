@@ -19,5 +19,5 @@ from curve_fitting import views as curve_fitting_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^curve_fitting', curve_fitting_views.calculate, name='calculate'),
+    url(r'^curve_fitting', curve_fitting_views.curve_fitting, name='curve_fitting'),
 ]
